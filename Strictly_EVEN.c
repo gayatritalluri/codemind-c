@@ -17,17 +17,13 @@ int main()
     }
     for(i=0;i<n;i++)
     {
-        if(i%2==0 && a[i]%2==0)
+        if(i%2==0&&a[i]%2==0)
         {
             s++;
         }
     }
     if(s==c)
-    {
-        printf("True");
-    }
+    printf("True");
     else
-    {
-        printf("False");
-    }
+    printf("False");
 }
